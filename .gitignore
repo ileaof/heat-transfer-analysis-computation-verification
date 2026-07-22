@@ -1,0 +1,31 @@
+# --- Python ---------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Virtual environments -------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+
+# --- Generated output -----------------------------------------------------
+# Figures are reproducible by running the scripts; keep them out of the repo.
+*.png
+*.pdf
+*.svg
+
+# --- Jupyter / caches -----------------------------------------------------
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# --- OS / editor ----------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
