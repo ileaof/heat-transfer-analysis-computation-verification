@@ -427,7 +427,7 @@ SOFTWARE.
 |---|---|
 | 👤 **Author** | I. L. Ferreira |
 | 🐙 **GitHub** | [@ileaof](https://github.com/ileaof) |
-| 📧 **Email** | `<your-email@example.com>` |
+| 📧 **Email** | `ileao@ufpa.br` |
 
 Questions, corrections, and contributions are welcome — please open an [issue](https://github.com/ileaof/heat-transfer-analysis-computation-verification/issues) or submit a pull request.
 
