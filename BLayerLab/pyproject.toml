@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "blayerlab"
+version = "1.0.0"
+description = "Boundary Layer Laboratory: a virtual laboratory for momentum and thermal boundary layers over a flat plate."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "Heat Transfer: Analysis, Computation, and Verification" },
+]
+keywords = [
+    "boundary-layer",
+    "blasius",
+    "heat-transfer",
+    "convection",
+    "fluid-mechanics",
+    "cfd",
+    "education",
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "matplotlib>=3.4",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["blayerlab*"]

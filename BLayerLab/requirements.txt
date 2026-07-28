@@ -1,0 +1,5 @@
+# Boundary Layer Laboratory - runtime dependencies
+# Only NumPy, SciPy and Matplotlib are required (per design specification).
+numpy>=1.21
+scipy>=1.7
+matplotlib>=3.4
