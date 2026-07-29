@@ -217,8 +217,10 @@ class CalculatorGUI:
 
         self._report.set_text(self._format_report(result))
         self._draw_plots(result)
-        regime = "LAMINAR" if result.is_laminar else "Re_L > 5e5: TRANSITION!"
-        self._set_status(f"Computed OK.  Regime: {regime}",
+        regime = "LAMINAR" if result.is_laminar else "TURBULENT (Re_L > 5e5)"
+        # Regime on its own line, under "Computed OK.", so it never overlaps
+        # the neighbouring report panel.
+        self._set_status(f"Computed OK.\nRegime: {regime}",
                          ok=result.is_laminar)
         self.fig.canvas.draw_idle()
 
