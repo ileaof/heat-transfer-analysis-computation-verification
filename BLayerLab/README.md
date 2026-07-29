@@ -67,7 +67,7 @@ root to `sys.path` so they run in place.
 |---|--------|------|-------------|
 | 1 | Blasius momentum boundary layer | `blayerlab/blasius.py` | `BlasiusSolver` |
 | 2 | Thermal boundary layer | `blayerlab/thermal.py` | `ThermalSolver` |
-| 3 | Flat-plate heat-transfer calculator | `blayerlab/calculator.py` | `FlatPlateCalculator` |
+| 3 | Flat-plate heat-transfer calculator | `blayerlab/calculator.py`, `calculator_gui.py` | `FlatPlateCalculator`, `CalculatorGUI` |
 | 4 | Interactive laboratory (GUI) | `blayerlab/interactive.py` | `InteractiveLab` |
 | 5 | Correlation verification | `blayerlab/verification.py` | `VerificationSuite` |
 | 6 | Parametric studies | `blayerlab/parametric.py` | `ParametricStudy` |
@@ -91,6 +91,19 @@ independent **analytical integrating-factor** solution.
 Give it a velocity, a fluid, a plate length and two temperatures; it returns
 **every** boundary-layer and heat-transfer quantity — locally and averaged —
 and prints a side-by-side comparison with the engineering correlations.
+
+It ships in two forms: a scriptable/batch API (`FlatPlateCalculator`) and a
+graphical **entry-field calculator** (`CalculatorGUI`) — type exact operating
+values, pick a fluid, press **Calculate**, and read the full report, the
+numerical-vs-correlation check and the distribution plots, with one-click CSV /
+Tecplot export.
+
+![Graphical flat-plate calculator](docs/images/calculator_gui.png)
+
+```bash
+python examples/example_module3_calculator.py        # batch report + figures
+python examples/example_module3_calculator_gui.py    # graphical calculator
+```
 
 ### Module 4 — Interactive laboratory
 A single Matplotlib window (`matplotlib.widgets` only) with sliders for

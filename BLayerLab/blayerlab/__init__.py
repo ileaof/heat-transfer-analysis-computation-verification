@@ -106,3 +106,14 @@ def launch_interactive() -> None:
     from .interactive import InteractiveLab
 
     InteractiveLab().launch()
+
+
+def launch_calculator() -> None:
+    """Launch the Module 3 graphical flat-plate calculator (entry-field GUI).
+
+    Like :func:`launch_interactive`, the Matplotlib-widgets import is deferred
+    so a bare ``import blayerlab`` never forces a GUI backend.
+    """
+    from .calculator_gui import CalculatorGUI
+
+    CalculatorGUI().launch()
