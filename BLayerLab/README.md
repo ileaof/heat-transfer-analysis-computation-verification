@@ -263,3 +263,25 @@ book-independent building blocks.
 4. F. Incropera et al., *Fundamentals of Heat and Mass Transfer*, 7th ed., Wiley.
 5. W. Kays, M. Crawford & B. Weigand, *Convective Heat and Mass Transfer*, 4th ed.
 6. S. Churchill & H. Ozoe, *J. Heat Transfer* **95** (1973) 78–84.
+
+---
+
+## Citation
+
+The Boundary Layer Laboratory is companion software for the textbook by
+**I. L. Ferreira**. If you use it in your teaching, research, or published work,
+please cite the book:
+
+```bibtex
+@book{Ferreira_HeatTransfer_2026,
+  author    = {Ferreira, I. L.},
+  title     = {Heat Transfer: Analysis, Computation, and Verification},
+  subtitle  = {A Finite-Volume Approach with Python},
+  year      = {2026},
+  publisher = {<PUBLISHER>},
+  address   = {<CITY, COUNTRY>},
+  edition   = {1st},
+  isbn      = {<ISBN>},
+  url       = {https://github.com/ileaof/heat-transfer-analysis-computation-verification}
+}
+```
