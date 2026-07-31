@@ -3,7 +3,8 @@
 **A virtual laboratory for the momentum and thermal boundary layers over a flat plate.**
 
 Companion educational software for the book
-*Heat Transfer: Analysis, Computation, and Verification*.
+*Heat Transfer: Analysis, Computation, and Verification*
+by **I. L. Ferreira**.
 This bonus material is **not** part of the printed book — it lives here in the
 companion GitHub repository.
 
