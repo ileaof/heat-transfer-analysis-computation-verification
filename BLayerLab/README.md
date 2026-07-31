@@ -270,7 +270,24 @@ book-independent building blocks.
 
 The Boundary Layer Laboratory is companion software for the textbook by
 **I. L. Ferreira**. If you use it in your teaching, research, or published work,
-please cite the book:
+please cite **both the software and the textbook**.
+
+**Software:**
+
+```bibtex
+@software{Ferreira_BLayerLab_2026,
+  author    = {Ferreira, I. L.},
+  title     = {{Boundary Layer Laboratory (BLayerLab): A Virtual Laboratory
+               for Momentum and Thermal Boundary Layers over a Flat Plate}},
+  year      = {2026},
+  version   = {1.0.0},
+  url       = {https://github.com/ileaof/heat-transfer-analysis-computation-verification},
+  note      = {Companion software for the textbook
+               \emph{Heat Transfer: Analysis, Computation, and Verification}}
+}
+```
+
+**Textbook:**
 
 ```bibtex
 @book{Ferreira_HeatTransfer_2026,
