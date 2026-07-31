@@ -298,7 +298,7 @@ please cite **both the software and the textbook**.
   publisher = {<PUBLISHER>},
   address   = {<CITY, COUNTRY>},
   edition   = {1st},
-  isbn      = {<ISBN>},
+  isbn      = {979-8188453312},
   url       = {https://github.com/ileaof/heat-transfer-analysis-computation-verification}
 }
 ```

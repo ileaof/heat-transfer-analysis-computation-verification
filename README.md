@@ -384,7 +384,7 @@ If you use this code in your teaching, research, or published work, please cite 
   publisher = {<PUBLISHER>},
   address   = {<CITY, COUNTRY>},
   edition   = {1st},
-  isbn      = {<ISBN>},
+  isbn      = {979-8188453312},
   url       = {https://github.com/ileaof/heat-transfer-analysis-computation-verification}
 }
 ```
